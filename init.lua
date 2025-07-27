@@ -35,3 +35,9 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+require("custom.entry")
+
+vim.g.neovide_remember_window_size = true
+vim.g.neovide_scale_factor = 0.8
+vim.g.guifont = "JetBrainsMono Nerd Font:h10"
