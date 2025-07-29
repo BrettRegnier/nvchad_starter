@@ -41,3 +41,7 @@ require("custom.entry")
 vim.g.neovide_remember_window_size = true
 vim.g.neovide_scale_factor = 0.8
 vim.g.guifont = "JetBrainsMono Nerd Font:h10"
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4 
+vim.opt.softtabstop = 4 
+vim.opt.expandtab = true
