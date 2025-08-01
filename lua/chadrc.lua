@@ -33,6 +33,11 @@ M.base46 = {
 	-- },
 }
 
+M.term = {
+  sizes = { sp = 0.2}
+}
+  
+
 
 -- M.nvdash = { load_on_startup = true }
 -- M.ui = {
