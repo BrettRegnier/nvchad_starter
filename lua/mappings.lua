@@ -6,6 +6,7 @@ local map = vim.keymap.set
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 map("n", "<C-p>", "<cmd> Telescope find_files <CR>")
+map("n", "fp", "<cmd> Telescope find_files <CR>")
 
 -- Untabbing
 map("v", "<S-Tab>", "<gv")
@@ -23,3 +24,7 @@ map("n", "fh", "<C-w>h")
 map("n", "fj", "<C-w>j")
 map("n", "fk", "<C-w>k")
 map("n", "fl", "<C-w>l")
+
+map("t", "<esc>", "<C-\\><C-n>");
+map("t", "jk", "<C-\\><C-n>");
+map("t", ":q", "exit<CR>");

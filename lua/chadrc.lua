@@ -25,7 +25,7 @@ local tango_colours = function()
 end
 
 M.base46 = {
-	theme = "ashes",
+	theme = "solarized_light",
     hl_add = tango_colours(),
 	-- hl_override = {
 	-- 	Comment = { italic = true },
