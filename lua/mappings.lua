@@ -10,7 +10,7 @@ map("n", "fp", "<cmd> Telescope find_files <CR>")
 
 -- Untabbing
 map("v", "<S-Tab>", "<gv")
-map("n", "<S-Tab>", "<<")
+-- map("n", "<S-Tab>", "<<")
 map("i", "<S-Tab>", "<C-d>")
 map("i", "<S-CR>", "<ESC>Ok")
 
@@ -28,3 +28,4 @@ map("n", "fl", "<C-w>l")
 map("t", "<esc>", "<C-\\><C-n>");
 map("t", "jk", "<C-\\><C-n>");
 map("t", ":q", "exit<CR>");
+

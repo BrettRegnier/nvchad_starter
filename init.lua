@@ -46,3 +46,12 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4 
 vim.opt.softtabstop = 4 
 vim.opt.expandtab = true
+vim.keymap.set("n", "i", function()
+    local line = vim.fn.getline(".")
+    if line:match("^%s*$") then
+        return "cc"  -- clear line and insert with correct indent
+    else
+        return "i"
+    end
+end, { expr = true, noremap = true })
+
