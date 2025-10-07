@@ -29,3 +29,4 @@ map("t", "<esc>", "<C-\\><C-n>");
 map("t", "jk", "<C-\\><C-n>");
 map("t", ":q", "exit<CR>");
 
+map("n", "K", vim.lsp.buf.hover, { desc = "LSP Hover"})
